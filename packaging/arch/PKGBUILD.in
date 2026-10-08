@@ -1,0 +1,15 @@
+pkgname=cockpit-system-roles
+pkgver=VERSION
+pkgrel=1
+pkgdesc='Cockpit Ansible and System Roles Module'
+arch=('x86_64')
+url='https://github.com/cockpit-project/cockpit-system-roles'
+license=(LGPL)
+source=("SOURCE")
+sha256sums=('SKIP')
+
+package() {
+  depends=(cockpit)
+  cd $pkgname
+  make DESTDIR="$pkgdir" install PREFIX=/usr
+}

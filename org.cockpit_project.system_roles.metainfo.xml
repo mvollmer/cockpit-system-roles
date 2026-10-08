@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>org.cockpit_project.system_roles</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Starter Kit</name>
+  <summary>Manage your local machine with Ansible and System Roles</summary>
+  <description>
+    <p>
+      Learn about Ansible and System Roles and use them to automate management of your local machine.
+    </p>
+  </description>
+  <extends>org.cockpit_project.cockpit</extends>
+  <launchable type="cockpit-manifest">system-roles</launchable>
+  <url type="homepage">https://github.com/cockpit-project/cockpit-system-roles</url>
+  <url type="bugtracker">https://github.com/cockpit-project/cockpit-system-roles/issues</url>
+  <update_contact>cockpit-devel_AT_lists.fedorahosted.org</update_contact>
+  <developer id="org.cockpit-project">
+    <name>Cockpit Project</name>
+  </developer>
+</component>

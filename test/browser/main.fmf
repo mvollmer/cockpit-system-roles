@@ -1,0 +1,8 @@
+summary:
+    Run browser integration tests on the host
+require:
+  - cockpit-system-roles
+  - cockpit-ws
+  - cockpit-system
+test: ./browser.sh
+duration: 60m
